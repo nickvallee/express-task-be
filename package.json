@@ -1,0 +1,16 @@
+{
+  "name": "project-gpt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is a test to build node stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-project"
+  },
+  "author": "nick vallee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  }
+}
