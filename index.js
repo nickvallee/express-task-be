@@ -70,3 +70,9 @@ app.delete('/tasks/:id', (req, res) => {
     })
     .catch(err => res.status(400).send(err));
 });
+
+// Middleware for error handling
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
